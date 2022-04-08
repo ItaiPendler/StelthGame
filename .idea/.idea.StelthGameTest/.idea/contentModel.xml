@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Itai Pendler\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Itai Pendler\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_StelthGameTest.62181443.00" t="ExcludeRecursive" />
+    <e p="D:\Users\Itai Pendler\UnityProjects\Genetics_Project_Test\StelthGameTest" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Bullet.cs" t="Include" />
+          <e p="CameraFollowScript.cs" t="Include" />
+          <e p="CameraFollowScriptNew.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="Guard.cs" t="Include" />
+          <e p="Gun.cs" t="Include" />
+          <e p="GunController.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="StelthGameTest.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
