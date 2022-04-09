@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
         }
 
         //if we made it to the end platform, we want to win.
-        if (Vector3.Distance(transform.position,winPlace.position)<1)
+        if (Vector3.Distance(transform.position,winPlace.position)<5)
         { 
             OnReachedWinPlace?.Invoke();
             return;

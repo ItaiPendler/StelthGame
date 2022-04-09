@@ -21,6 +21,7 @@ public class Guard : MonoBehaviour
     public float viewDistance;
     public LayerMask viewMask;
     public static int CurrentGuardCount = 0;
+    public Color GuardNumber = Color.black;
 
     public float TimeToSpotPlayer = 0.5f;
     public float playerVisibleTimer;
@@ -235,12 +236,10 @@ public class Guard : MonoBehaviour
             Color[] colors = {Color.blue, Color.magenta, Color.green, Color.cyan};
             Vector3 startPosition = PathHolder.GetChild(0).position;
             Vector3 previousPositon = startPosition;
-            var counter = 0;
+//            var counter = 0;
             foreach (Transform waypoint in PathHolder)
             {
-                Gizmos.color = colors[counter++];
-                if (counter == colors.Length)
-                    counter = 0;
+                Gizmos.color = this.GuardNumber;
                 Gizmos.DrawLine(previousPositon, waypoint.position);
                 //Gizmos.DrawSphere(waypoint.position, 0.3f);
                 previousPositon = waypoint.position;

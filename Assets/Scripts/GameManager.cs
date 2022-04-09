@@ -39,7 +39,18 @@ public class GameManager : MonoBehaviour
                 //re restart the game.
                 ReloadScene();
             }
+
+            if (Input.GetKey(KeyCode.C))
+            {
+                GoToNextScene();
+            }
         }
+    }
+
+    private void GoToNextScene()
+    {
+        gameOver = false;
+        SceneManager.LoadScene(1);
     }
 
     private void ReloadScene()
