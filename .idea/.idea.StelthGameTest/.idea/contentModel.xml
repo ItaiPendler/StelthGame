@@ -4,8 +4,19 @@
     <e p="C:\Users\Itai Pendler\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Itai Pendler\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_StelthGameTest.62181443.00" t="ExcludeRecursive" />
     <e p="D:\Users\Itai Pendler\UnityProjects\Genetics_Project_Test\StelthGameTest" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+              <e p="ExtensionLoader.cs" t="Include" />
+              <e p="UnityAPIWrapper.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
           <e p="CameraFollowScript.cs" t="Include" />
